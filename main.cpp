@@ -32,13 +32,14 @@ cout << "Pituuden jakojäännös="<<alueen_pituus%laatta_pituus<<endl;
 
 cout << "valmis " << endl;
 
-string autoja[]={"Hyundai", "Mersu", "Toyota", "Lamborghini", "Volkswaken"};
+string autoja[10]={"Hyundai", "Mersu", "Toyota", "Lamborghini", "Volkswaken"};
 
 cout << endl;
 cout << autoja[3]<< endl;
 
 autoja[0]="Saab";
-
+autoja[6]="Honda";
+cout << autoja[6]<< endl;
 cout << autoja[0]<< endl
 << endl;
 int ika = 15;
@@ -66,8 +67,5 @@ else if (ika < 15){
 else{
 cout << "olet yli 15";
 }
-
-
-
 
 }
